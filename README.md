@@ -1,1 +1,1 @@
-# Streamlit-based-Deep-Emotion-Detector
+# 😲 Streamlit based Deep Emotion Detector 😄
