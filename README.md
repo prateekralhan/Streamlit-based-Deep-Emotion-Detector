@@ -9,12 +9,22 @@ A simple streamlit based webapp to process text and detect emotions from the und
 
 ## Usage:
 1. Clone this repository and install the dependencies as mentioned above.
-2. Simply run the command: 
+2. Make a directory within this cloned repository with the name `.streamlit` *(Don't forget the dot !!)*.
+3. Create a file `config.toml` in this directory *(Be aware of the file extension !!)*.
+4. Copy-Paste the following contents in this file and save :
+```
+[theme]
+primaryColor="#b11b1b"
+backgroundColor="#080e1c"
+secondaryBackgroundColor="#203659"
+textColor="#bf7c7c"
+```
+5. Navigate to the root directory of this repository and simply run the command: 
 ```
 streamlit run app.py
 ```
-3. Navigate to http://localhost:8501 in your web-browser.
-4. By default, streamlit allows us to upload files of **max. 200MB**. If you want to have more size for uploading audio files, execute the command :
+6. Navigate to http://localhost:8501 in your web-browser.
+7. By default, streamlit allows us to upload files of **max. 200MB**. If you want to have more size for uploading audio files, execute the command :
 ```
 streamlit run app.py --server.maxUploadSize=1028
 ```
