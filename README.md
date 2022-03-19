@@ -24,7 +24,7 @@ textColor="#bf7c7c"
 streamlit run app.py
 ```
 6. Navigate to http://localhost:8501 in your web-browser.
-7. By default, streamlit allows us to upload files of **max. 200MB**. If you want to have more size for uploading audio files, execute the command :
+7. By default, streamlit allows us to upload files of **max. 200MB**. If you want to have more size for uploading files, execute the command :
 ```
 streamlit run app.py --server.maxUploadSize=1028
 ```
